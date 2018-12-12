@@ -36,7 +36,7 @@ namespace RedisExample
 
             _logger.Info("Start..");
 
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("127.0.0.1:6379");
+            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("10.112.20.79:6379");
             // ^^^ store and re-use this!!!
 
             //ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("server1:6379,server2:6379");
